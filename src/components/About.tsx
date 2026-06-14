@@ -30,7 +30,7 @@ const About: React.FC = () => {
             <div className="about-intro">
               <h3>Xin chào! Tôi là <span className="highlight">Đinh Văn Quân</span></h3>
               <p>
-                Tôi là Flutter Developer với hơn <strong>3 năm kinh nghiệm</strong> xây dựng 
+                Tôi là Flutter Developer với hơn <strong>3.5 năm kinh nghiệm</strong> xây dựng 
                 các ứng dụng mobile có khả năng mở rộng và hiệu suất cao. Chuyên sâu về 
                 Clean Architecture, Native Integration (Method Channels) và App Store Deployment.
               </p>

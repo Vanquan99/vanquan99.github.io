@@ -33,18 +33,18 @@ const experiences: ExperienceItem[] = [
     period: '06/2022 - Hiện tại',
     description: 'Phát triển ứng dụng mobile cho các khách hàng Nhật Bản, tập trung vào Flutter và Native Integration.',
     highlights: [],
-    technologies: ['Flutter', 'Dart', 'Kotlin', 'Swift', 'Firebase', 'Websocket', 'Next.js', 'TypeScript'],
+    technologies: ['Flutter', 'Dart', 'Kotlin', 'Next.js', 'TypeScript', 'Firebase', 'WebSocket'],
     projects: [
       {
         name: 'Ceres (Softbank)',
         role: 'Android Developer',
         period: '',
         description: 'Ứng dụng self-care toàn diện cho khách hàng Softbank Nhật Bản, cho phép quản lý tập trung viễn thông và tiện ích gia đình (điện, nước, gas, internet) cùng với quản lý hợp đồng số.',
-        techStack: 'Kotlin, Swift',
+        techStack: 'Kotlin, Swift, MVP',
         responsibilities: [
           'Phát triển và bảo trì ứng dụng Android native',
           'Tích hợp các dịch vụ viễn thông và tiện ích',
-          'Làm việc với team iOS để đảm bảo consistency'
+          'Phối hợp chéo với team iOS để thiết kế và chuẩn hóa kiến trúc Native Integration, đảm bảo sự đồng nhất về luồng dữ liệu và UI/UX'
         ]
       },
       {
@@ -64,11 +64,11 @@ const experiences: ExperienceItem[] = [
         role: 'Flutter Developer',
         period: '06/2024 - 09/2024 | 05/2025 - 09/2025',
         description: 'Hệ thống cho phép người dùng tìm kiếm bệnh viện, đặt lịch hẹn và theo dõi các cuộc khám bệnh.',
-        techStack: 'Dart, Flutter, Websocket, Hasura, SQL Server',
+        techStack: 'Dart, Flutter, WebSocket, Hasura, SQL Server, Bloc, GraphQL',
         responsibilities: [
           'Thiết kế UI từ Figma',
           'Phát triển tính năng tìm kiếm và đặt lịch',
-          'Tích hợp real-time updates với Websocket'
+          'Tích hợp real-time updates với WebSocket'
         ]
       },
       {
@@ -76,7 +76,7 @@ const experiences: ExperienceItem[] = [
         role: 'Flutter Developer',
         period: '09/2024 - 05/2025',
         description: 'Hệ thống cho phép các bác sĩ thảo luận về tình trạng bệnh nhân và trao đổi thông tin bệnh nhân.',
-        techStack: 'Dart, Flutter, Websocket, SQL Server',
+        techStack: 'Dart, Flutter, WebSocket, SQL Server, Bloc',
         responsibilities: [
           'Thiết kế UI từ Figma',
           'Phát triển tính năng chat và chia sẻ hồ sơ',
@@ -88,9 +88,9 @@ const experiences: ExperienceItem[] = [
         role: 'Flutter Developer',
         period: '04/2024 - 06/2024',
         description: 'Ứng dụng tính toán chỉ số dinh dưỡng và sức khỏe trên nền tảng Flutter.',
-        techStack: 'Dart, Flutter, Firebase, SQLite',
+        techStack: 'Dart, Flutter, Firebase, SQLite, Riverpod',
         responsibilities: [
-          'Thiết kế UI từ Figma',
+          'Dựng UI phức tạp với Animation/Custom Painter',
           'Phát triển tính năng tính toán dinh dưỡng',
           'Tích hợp Firebase và local database'
         ]
@@ -100,7 +100,7 @@ const experiences: ExperienceItem[] = [
         role: 'Flutter Developer',
         period: '06/2022 - 04/2024',
         description: 'Phát triển ứng dụng quản lý coupon nhà thuốc, thêm các tính năng mới.',
-        techStack: 'Dart, Flutter, Firebase, Salesforce',
+        techStack: 'Dart, Flutter, Firebase, Salesforce, Riverpod',
         responsibilities: [
           'Thiết kế UI từ Figma',
           'Phát triển tính năng quản lý coupon',
@@ -115,7 +115,7 @@ const experiences: ExperienceItem[] = [
     title: 'Kỹ sư Công nghệ Thông tin',
     company: 'Đại học Giao thông Vận tải TP.HCM',
     location: 'TP. Hồ Chí Minh, Việt Nam',
-    period: '2018 - 2022',
+    period: '2017 - 2021',
     description: 'Chuyên ngành Công nghệ Thông tin, tốt nghiệp với nền tảng vững chắc về kỹ thuật phần mềm.',
     highlights: [
       'Hoàn thành khóa học "Android programming from basic to advanced" - Khoa Pham Academy (2021)',
